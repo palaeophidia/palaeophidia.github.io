@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ '/public/css/main.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap">
+</head>
+<body>
+
+  <div class="sidebar">
+    <div class="container sidebar-sticky">
+      <div class="sidebar-about">
+        <div class="sidebar-photo-wrap">
+          <img src="{{ '/public/img/profile.jpg' | relative_url }}" alt="Andrés Alfonso-Rojas" class="sidebar-photo" onerror="this.style.display='none'">
+        </div>
+        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <p class="lead">Vertebrate Palaeontologist<br>& Herpetologist</p>
+        <p class="affil">University of Cambridge</p>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}">About</a>
+        <a class="sidebar-nav-item{% if page.url contains '/research' %} active{% endif %}" href="{{ '/research/' | relative_url }}">Research</a>
+        <a class="sidebar-nav-item{% if page.url contains '/publications' %} active{% endif %}" href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a class="sidebar-nav-item{% if page.url contains '/fieldwork' %} active{% endif %}" href="{{ '/fieldwork/' | relative_url }}">Field Work</a>
+        <a class="sidebar-nav-item{% if page.url contains '/snakepics' %} active{% endif %}" href="{{ '/snakepics/' | relative_url }}">Snake Pictures</a>
+        <a class="sidebar-nav-item" href="{{ '/public/cv/Alfonso-Rojas_CV.pdf' | relative_url }}" target="_blank">CV</a>
+      </nav>
+
+      <div class="sidebar-icons">
+        <a href="mailto:afa38@cam.ac.uk" title="Email" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
+        </a>
+        <a href="https://orcid.org/0000-0002-6390-6454" target="_blank" title="ORCID" aria-label="ORCID">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5h-1.5v-7H11v7zm-.75-8.25a.875.875 0 110-1.75.875.875 0 010 1.75zm5.25 8.25h-1.5v-3.75c0-.69-.56-1.25-1.25-1.25s-1.25.56-1.25 1.25V16.5h-1.5v-7h1.5v1c.4-.65 1.1-1 1.875-1 1.31 0 2.375 1.065 2.375 2.375V16.5z"/></svg>
+        </a>
+        <a href="https://scholar.google.com/citations?user=_qzbKHcAAAAJ&hl=es&oi=sra" target="_blank" title="Google Scholar" aria-label="Google Scholar">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3L1 9l4 2.18V17c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-5.82L21 9 12 3zm6 13H6v-4.5l6 3.27 6-3.27V16zm0-6.73L12 12.5 6 9.27 12 6l6 3.27z"/></svg>
+        </a>
+        <a href="https://www.researchgate.net/profile/Andres-Alfonso-Rojas" target="_blank" title="ResearchGate" aria-label="ResearchGate">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.586 0H4.414C1.973 0 0 1.973 0 4.414v15.172C0 22.027 1.973 24 4.414 24h15.172C22.027 24 24 22.027 24 19.586V4.414C24 1.973 22.027 0 19.586 0zm-7.07 16.406c-.656 0-1.148-.164-1.477-.492-.328-.328-.492-.82-.492-1.477V9.563h1.125v4.664c0 .398.082.691.246.879.164.188.41.281.738.281.328 0 .574-.093.738-.281.164-.188.246-.48.246-.879V9.563h1.125v4.874c0 .657-.164 1.149-.492 1.477-.328.328-.82.492-1.757.492zm3.914-.117H15.3V9.563h1.125v6.726zm-9.023-.328c-.82 0-1.477-.246-1.969-.738-.492-.492-.738-1.148-.738-1.969 0-.82.246-1.477.738-1.969.492-.492 1.148-.738 1.969-.738.656 0 1.23.188 1.723.563l-.563.879c-.328-.246-.703-.375-1.125-.375-.492 0-.879.164-1.16.492-.281.328-.422.762-.422 1.148 0 .387.14.82.422 1.148.28.328.668.492 1.16.492.246 0 .48-.047.703-.14v-.75H8.32V13.5h1.97v2.086c-.586.246-1.207.375-1.883.375z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/andres-paleosnakes3/" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/palaeophidia/" target="_blank" title="Instagram" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+      </div>
+
+      <p class="sidebar-footer">Gates Cambridge Scholar<br>PhD Zoology · Cambridge</p>
+    </div>
+  </div>
+
+  <div class="content container">
+    {{ content }}
+  </div>
+
+</body>
+</html>

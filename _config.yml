@@ -1,0 +1,19 @@
+# Site settings
+title: Andrés Alfonso-Rojas
+description: Vertebrate Palaeontologist & Herpetologist
+baseurl: ""
+url: "https://palaeophidia.github.io"
+author: Andrés Alfonso-Rojas
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Hyde theme settings
+theme_color: #b5793a   # earthy amber — fossil amber tone
+sidebar_overlay_color: rgba(0,0,0,0.45)
+
+# Plugins
+plugins:
+  - jekyll-feed

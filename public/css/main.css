@@ -1,0 +1,384 @@
+/* ============================================================
+   Palaeophidia — Andrés Alfonso-Rojas personal academic site
+   Based on Hyde theme by Mark Otto (MIT License)
+   Custom design: amber/fossil palette, EB Garamond + Inter
+   ============================================================ */
+
+/* --- Tokens ------------------------------------------------- */
+:root {
+  --amber:       #b5793a;
+  --amber-dark:  #8c5c26;
+  --amber-light: #e8c99a;
+  --bg:          #faf8f5;
+  --bg-sidebar:  #2c2218;
+  --fg:          #2a2218;
+  --fg-muted:    #7a6e62;
+  --fg-sidebar:  #e8ddd0;
+  --fg-sidebar-muted: #a89880;
+  --border:      #e0d8cc;
+  --card-bg:     #ffffff;
+
+  --font-display: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:       #1a1510;
+    --bg-sidebar: #0f0c08;
+    --fg:       #e8ddd0;
+    --fg-muted: #9a8e82;
+    --border:   #3a3028;
+    --card-bg:  #231e18;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg:       #1a1510;
+  --bg-sidebar: #0f0c08;
+  --fg:       #e8ddd0;
+  --fg-muted: #9a8e82;
+  --border:   #3a3028;
+  --card-bg:  #231e18;
+  color-scheme: dark;
+}
+
+/* --- Reset -------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--fg);
+  background: var(--bg);
+}
+img { max-width: 100%; display: block; }
+a { color: var(--amber); text-decoration: none; }
+a:hover { text-decoration: underline; }
+p { margin: 0 0 1.2em; }
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--fg);
+  text-wrap: balance;
+}
+
+/* --- Layout ------------------------------------------------- */
+.sidebar {
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  width: 14rem;
+  background: var(--bg-sidebar);
+  color: var(--fg-sidebar);
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.sidebar-sticky {
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  margin-left: 14rem;
+  padding: 2.5rem 2.5rem 4rem;
+  max-width: 720px;
+}
+
+.container { padding-inline: 0; }
+
+/* --- Sidebar ------------------------------------------------ */
+.sidebar-photo-wrap {
+  margin-bottom: 1rem;
+}
+.sidebar-photo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--amber);
+}
+
+.sidebar-about h1 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 0.25rem;
+  line-height: 1.2;
+}
+.sidebar-about h1 a { color: #fff; text-decoration: none; }
+.sidebar-about h1 a:hover { color: var(--amber-light); }
+
+.sidebar-about .lead {
+  font-size: 0.78rem;
+  color: var(--fg-sidebar-muted);
+  margin: 0 0 0.15rem;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+.sidebar-about .affil {
+  font-size: 0.72rem;
+  color: var(--amber-light);
+  margin: 0;
+  opacity: 0.8;
+}
+
+.sidebar-nav {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+.sidebar-nav-item {
+  display: block;
+  padding: 0.3rem 0;
+  font-size: 0.82rem;
+  color: var(--fg-sidebar-muted);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition: color 0.15s;
+  border-left: 2px solid transparent;
+  padding-left: 0.75rem;
+  margin-left: -0.75rem;
+}
+.sidebar-nav-item:hover,
+.sidebar-nav-item.active {
+  color: #fff;
+  text-decoration: none;
+  border-left-color: var(--amber);
+}
+
+.sidebar-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: auto;
+  padding-top: 1.5rem;
+}
+.sidebar-icons a {
+  color: var(--fg-sidebar-muted);
+  display: flex;
+  align-items: center;
+  transition: color 0.15s;
+}
+.sidebar-icons a:hover { color: var(--amber-light); }
+.sidebar-icons svg { width: 1.1rem; height: 1.1rem; }
+
+.sidebar-footer {
+  font-size: 0.68rem;
+  color: var(--fg-sidebar-muted);
+  margin: 0.75rem 0 0;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+/* --- Page typography ---------------------------------------- */
+.page-title {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--fg);
+}
+
+/* --- Home / About ------------------------------------------ */
+.about-intro {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  line-height: 1.75;
+  color: var(--fg);
+  margin-bottom: 2rem;
+}
+.about-section { margin-bottom: 1.5rem; }
+.about-section h3 {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--amber);
+  margin: 0 0 0.4rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+}
+.about-section p { margin: 0; font-size: 0.92rem; color: var(--fg); }
+.about-section a { color: var(--amber); }
+
+/* --- Research --------------------------------------------- */
+.research-project {
+  margin-bottom: 3rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.research-project:last-child { border-bottom: none; }
+.research-project h2 {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 0.85rem;
+  color: var(--fg);
+}
+.research-project p { font-size: 0.95rem; color: var(--fg); }
+.research-project a { color: var(--amber); }
+
+.research-tag {
+  display: inline-block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--amber);
+  font-family: var(--font-body);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* --- Publications ----------------------------------------- */
+.pub-year-group { margin-bottom: 2rem; }
+.pub-year {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--amber);
+  font-family: var(--font-body);
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--border);
+}
+.pub-item {
+  margin-bottom: 1.2rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--border);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.pub-item:hover { border-left-color: var(--amber); }
+.pub-title { font-style: italic; color: var(--fg); }
+.pub-authors { color: var(--fg-muted); font-size: 0.85rem; }
+.pub-journal { color: var(--fg); }
+.pub-authors strong { color: var(--fg); font-weight: 600; }
+.pub-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  padding: 0.1em 0.5em;
+  border-radius: 2px;
+  margin-left: 0.4rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.pub-badge.inrev {
+  background: var(--amber-light);
+  color: var(--amber-dark);
+}
+
+/* --- Field Work ------------------------------------------- */
+.fieldwork-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.fieldwork-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.fieldwork-card-img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  background: var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--fg-muted);
+  font-size: 0.8rem;
+}
+.fieldwork-card-body { padding: 1rem; }
+.fieldwork-card-title {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+}
+.fieldwork-card-desc {
+  font-size: 0.82rem;
+  color: var(--fg-muted);
+  margin: 0;
+}
+
+/* --- Snake Pictures --------------------------------------- */
+.snakepics-intro { margin-bottom: 1.5rem; font-size: 0.95rem; }
+.snakepics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+.snakepics-item { position: relative; }
+.snakepics-item img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 3px;
+  background: var(--border);
+}
+.snakepics-caption {
+  font-size: 0.75rem;
+  color: var(--fg-muted);
+  font-style: italic;
+  margin-top: 0.3rem;
+}
+
+/* --- Placeholder boxes (for images not yet added) --------- */
+.img-placeholder {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background: var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: var(--fg-muted);
+  border-radius: 3px;
+  font-style: italic;
+}
+
+/* --- Responsive ------------------------------------------- */
+@media (max-width: 800px) {
+  .sidebar {
+    position: static;
+    width: 100%;
+    min-height: auto;
+  }
+  .sidebar-sticky {
+    min-height: auto;
+    padding: 1.5rem;
+  }
+  .content {
+    margin-left: 0;
+    padding: 1.5rem 1rem 3rem;
+  }
+  .sidebar-nav { flex-direction: row; flex-wrap: wrap; gap: 0; }
+  .sidebar-nav-item {
+    padding: 0.3rem 0.6rem;
+    border-left: none;
+    border-bottom: 2px solid transparent;
+    margin-left: 0;
+  }
+  .sidebar-nav-item.active,
+  .sidebar-nav-item:hover {
+    border-left-color: transparent;
+    border-bottom-color: var(--amber);
+  }
+  .fieldwork-grid { grid-template-columns: 1fr; }
+}
