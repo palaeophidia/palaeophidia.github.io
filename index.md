@@ -5,12 +5,12 @@ title: Home
 
 <div class="about-layout">
 
-  <img src="/public/img/about.jpg" alt="Andrés Alfonso-Rojas" class="about-photo" onerror="this.style.display='none'">
+  <img src="/public/img/about-photo.jpg" alt="Andrés Alfonso-Rojas" class="about-photo" onerror="this.style.display='none'">
 
   <div class="about-text">
 
     <div class="about-intro">
-      I am a Colombian vertebrate palaeontologist and biologist with interest in the evolution of modern herpetofauna in the Neotropics. My research combines traditional palaeontology, molecular data, and functional traits to understand the origin of modern species of reptiles and amphibians.I hold a B.S. in Biology from Universidad de los Andes, Colombia; a M.S. in Natural Sciences from Universidad del Rosario, Colombia; and I am currently completing my Phd in  <a href="https://www.zoo.cam.ac.uk/people/andres-alfonso-rojas" target="_blank"> Zoology at the University of Cambridge, UK</a>, fully funded by the <a href="https://www.gatescambridge.org/biography/18574/" target="_blank">Gates Cambridge Trust</a>.</p>
+      I am a Colombian vertebrate palaeontologist and biologist with interest in the evolution of modern herpetofauna in the Neotropics. My research combines traditional palaeontology, molecular data, and functional traits to understand the origin of modern species of reptiles and amphibians.I hold a B.S. in Biology from Universidad de los Andes, Colombia; a M.S. in Natural Sciences from Universidad del Rosario, Colombia; and I am currently completing my Phd in  <a href="https://www.zoo.cam.ac.uk/people/andres-alfonso-rojas" target="_blank"> Zoology at the University of Cambridge, UK</a>, fully funded by the <a href="https://www.gatescambridge.org/biography/18574/" target="_blank">Gates Cambridge Trust</a>.
     </div>
 
     <div class="about-section">

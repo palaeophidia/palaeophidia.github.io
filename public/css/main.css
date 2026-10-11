@@ -82,7 +82,7 @@ h1, h2, h3, h4 {
 .sidebar {
   position: fixed;
   top: 0; left: 0; bottom: 0;
-  width: 25rem;
+  width: 20rem;
   background: var(--bg-sidebar);
   color: var(--fg-sidebar);
   overflow-y: auto;
