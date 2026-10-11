@@ -21,7 +21,7 @@ title: Publications
 <p class="pub-year">2025</p>
 
 <div class="pub-item">
-  <div class=<img class="pub-thumb" src="/public/img/pubs/anacondas_2025.jpg" alt=""> title="Add image: public/img/pubs/anacondas_2025.jpg">🐍</div>
+  <div class=<img class="pub-thumb" src="/public/img/pubs/anacondas_2025.jpg" alt=""> title="Add image: public/img/pubs/anacondas_2025.jpg"></div>
   <div class="pub-body">
     <p class="pub-authors"><strong>Alfonso-Rojas, A. F.</strong>, Carrillo-Briceño, J. D., Sánchez, R., Sánchez-Villagra, M. R., &amp; Head, J. J.</p>
     <p><span class="pub-title"><a href="https://doi.org/10.1080/02724634.2025.2572967" target="_blank">An early origin of gigantism in anacondas (Serpentes: <em>Eunectes</em>) revealed by the fossil record.</a></span> <span class="pub-journal"><em>Journal of Vertebrate Paleontology</em>, e2572967.</span></p>
@@ -33,7 +33,7 @@ title: Publications
 <p class="pub-year">2024</p>
 
 <div class="pub-item">
-  <div class="pub-thumb-placeholder" title="Add image: public/img/pubs/vasquez2024.jpg">🐍</div>
+  <div class="pub-thumb-placeholder" title="Add image: public/img/pubs/vasquez2024.jpg"></div>
   <div class="pub-body">
     <p class="pub-authors">Vásquez-Restrepo, J. D., <strong>Alfonso-Rojas, A.</strong>, &amp; Palacios-Aguilar, R.</p>
     <p><span class="pub-title"><a href="https://doi.org/10.11646/bionomina.37.1.1" target="_blank">On the validity of the recently described northern green anaconda <em>Eunectes akayima</em> (Squamata, Serpentes).</a></span> <span class="pub-journal"><em>Bionomina</em>, 37(1), 1–7.</span></p>
@@ -45,7 +45,7 @@ title: Publications
 <p class="pub-year">2023</p>
 
 <div class="pub-item">
-  <div class="pub-thumb-placeholder" title="Add image: public/img/pubs/carrillo2023.jpg">🦕</div>
+  <div class=<img class="pub-thumb" src="/public/img/pubs/La_Venta_2023.jpg" alt=""> title="Add image: public/img/pubs/La_Venta_2023.jpg"></div>
   <div class="pub-body">
     <p class="pub-authors">Carrillo, J. D., Jaramillo, C., Abadía, F., Aguilera, O., <strong>Alfonso-Rojas, A.</strong>, Billet, G., … &amp; Zapata, S.</p>
     <p><span class="pub-title"><a href="https://doi.org/10.5252/geodiversitas2023v45a26" target="_blank">The Miocene La Venta Biome (Colombia): A century of research and future perspectives.</a></span> <span class="pub-journal"><em>Geodiversitas</em>, 45(26), 739–767.</span></p>

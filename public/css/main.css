@@ -71,7 +71,7 @@ h1, h2, h3, h4 {
 .sidebar {
   position: fixed;
   top: 0; left: 0; bottom: 0;
-  width: 14rem;
+  width: 16rem;
   background: var(--bg-sidebar);
   color: var(--fg-sidebar);
   overflow-y: auto;
@@ -87,9 +87,9 @@ h1, h2, h3, h4 {
 }
 
 .content {
-  margin-left: 14rem;
-  padding: 3rem 3rem 4rem;
-  max-width: 720px;
+  margin-left: 16rem;
+  padding: 3rem 4rem 4rem;
+  max-width: 740px;
 }
 
 .container { padding-inline: 0; }
@@ -99,9 +99,9 @@ h1, h2, h3, h4 {
   margin-bottom: 1rem;
 }
 .sidebar-photo {
-  width: 7rem;
-  height: 7rem;
-  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 6px;
   object-fit: cover;
   border: 3px solid rgba(255,255,255,0.4);
   margin: 0 auto;
