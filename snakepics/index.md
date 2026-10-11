@@ -33,8 +33,8 @@ title: Snake Pictures
 </div>
 
 <div class="snakepics-item">
-  <div class="img-placeholder" style="aspect-ratio:1">Photo coming soon</div>
-  <p class="snakepics-caption"><em>Micrurus</em> sp. — Coral snake, Colombia</p>
+  <img src="/public/img/snakes/Python_regius.jpg" alt="Python murinus">
+  <p class="snakepics-caption"><em>Python regius</em> — Ball python</p>
 </div>
 
 </div>
