@@ -3,7 +3,7 @@ layout: page
 title: Publications
 ---
 
-<p style="font-size:0.9rem;color:var(--fg-muted);margin-bottom:2rem;">You can also find my papers on <a href="https://scholar.google.com/citations?user=_qzbKHcAAAAJ&hl=es&oi=sra" target="_blank">Google Scholar</a> and <a href="https://www.researchgate.net/profile/Andres-Alfonso-Rojas" target="_blank">ResearchGate</a>. Paper images can be added to <code>public/img/pubs/</code>.</p>
+<p style="font-size:0.9rem;color:var(--fg-muted);margin-bottom:2rem;">You can also find my papers on <a href="https://scholar.google.com/citations?user=_qzbKHcAAAAJ&hl=es&oi=sra" target="_blank">Google Scholar</a> and <a href="https://www.researchgate.net/profile/Andres-Alfonso-Rojas" target="_blank">ResearchGate</a>. </p>
 
 <div class="pub-year-group">
 <p class="pub-year">2026</p>
