@@ -276,9 +276,9 @@ h1, h2, h3, h4 {
 .pub-item:hover .pub-thumb { opacity: 1; }
 
 .pub-thumb {
-  flex: 0 0 80px;
-  width: 80px;
-  height: 80px;
+  flex: 0 0 100px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 3px;
   border: 1px solid var(--border);
@@ -287,9 +287,9 @@ h1, h2, h3, h4 {
   transition: opacity 0.2s;
 }
 .pub-thumb-placeholder {
-  flex: 0 0 80px;
-  width: 80px;
-  height: 80px;
+  flex: 0 0 100px;
+  width: 100px;
+  height: 100px;
   border-radius: 3px;
   border: 1px solid var(--border);
   background: var(--card-bg);
