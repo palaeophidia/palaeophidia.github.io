@@ -85,7 +85,7 @@ title: Publications
 <p class="pub-year">2020</p>
 
 <div class="pub-item">
-  <img class="pub-thumb" src="/public/img/pubs/fish_skin_2020.png" alt="">
+  <img class="pub-thumb" src="/public/img/pubs/fish_skin_2020.jpg" alt="">
   <div class="pub-body">
     <p class="pub-authors"><strong>Alfonso-Rojas, A.</strong>, &amp; Cadena, E. A.</p>
     <p><span class="pub-title"><a href="https://doi.org/10.7717/peerj.9479" target="_blank">Exceptionally preserved 'skin' in an Early Cretaceous fish from Colombia.</a></span> <span class="pub-journal"><em>PeerJ</em>, 8, e9479.</span></p>
