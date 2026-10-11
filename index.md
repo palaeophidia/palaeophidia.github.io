@@ -19,4 +19,11 @@ title: Home
   <p>Email me at <strong>afa38@cam.ac.uk</strong> — or find me on <a href="https://www.instagram.com/palaeophidia/" target="_blank">Instagram</a>, <a href="https://www.linkedin.com/in/andres-paleosnakes3/" target="_blank">LinkedIn</a>, or <a href="https://scholar.google.com/citations?user=_qzbKHcAAAAJ&hl=es&oi=sra" target="_blank">Google Scholar</a>.</p>
 </div>
 
+<div style="display:flex;gap:1.5rem;align-items:flex-start;margin-bottom:2rem;">
+  <div class="about-intro" style="flex:1">
+    I am a Colombian vertebrate palaeontologist...
+  </div>
+  <img src="/public/img/about-photo.jpg" alt="" style="width:180px;border-radius:4px;flex-shrink:0;">
+</div>
+
 </div>
