@@ -470,3 +470,23 @@ h1, h2, h3, h4 {
   .about-layout { flex-direction: column; }
   .about-photo { width: 100%; height: auto; flex: none; position: static; }
 }
+
+/* --- Research images ---------------------------------------- */
+.research-project-inner {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.research-project-text { flex: 1; min-width: 0; }
+.research-img {
+  flex: 0 0 200px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+@media (max-width: 800px) {
+  .research-project-inner { flex-direction: column; }
+  .research-img { width: 100%; height: auto; flex: none; }
+}

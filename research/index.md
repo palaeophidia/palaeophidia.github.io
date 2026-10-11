@@ -20,9 +20,13 @@ title: Research
 </div>
 
 <div class="research-project">
-  <span class="research-tag">Taphonomy · Molecular Palaeontology</span>
-  <h2>Preservation of organic components in fossils</h2>
-  <p>
-    In collaboration with <a href="https://www.paleoturtles.com/" target="_blank">Dr Edwin Cadena</a> (Universidad del Rosario), I have explored the extraordinary preservation of organic compounds in Colombian fossil material. This has led to the discovery of exceptionally preserved 'skin' in an Early Cretaceous fish (<a href="https://doi.org/10.7717/peerj.9479" target="_blank">Alfonso-Rojas & Cadena 2020</a>) and soft-tissue preservation in a Cretaceous ichthyosaur (<a href="https://doi.org/10.1016/j.cretres.2026.106305" target="_blank">Martinez-Motta et al. 2026</a>), contributing to our understanding of preservation pathways in tropical depositional settings.
-  </p>
+  <div class="research-project-inner">
+    <div class="research-project-text">
+      <span class="research-tag">Taphonomy · Molecular Palaeontology</span>
+       <h2>Preservation of organic components in fossils</h2>
+      <p>
+      In collaboration with <a href="https://www.paleoturtles.com/" target="_blank">Dr Edwin Cadena</a> (Universidad del Rosario), I have explored the extraordinary preservation of organic compounds in Colombian fossil material. This has led to the discovery of exceptionally preserved 'skin' in an Early Cretaceous fish (<a href="https://doi.org/10.7717/peerj.9479" target="_blank">Alfonso-Rojas & Cadena 2020</a>) and soft-tissue preservation in a Cretaceous ichthyosaur (<a href="https://doi.org/10.1016/j.cretres.2026.106305" target="_blank">Martinez-Motta et al. 2026</a>), contributing to our understanding of preservation pathways in tropical depositional settings.</p>
+    </div>
+    <img src="/public/img/research/molecular_paleo.jpg" alt="" class="research-img">
+  </div>
 </div>
