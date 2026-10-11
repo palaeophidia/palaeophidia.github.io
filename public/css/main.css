@@ -77,7 +77,7 @@ h1, h2, h3, h4 {
 .sidebar {
   position: fixed;
   top: 0; left: 0; bottom: 0;
-  width: 18rem;
+  width: 20rem;
   background: var(--bg-sidebar);
   color: var(--fg-sidebar);
   overflow-y: auto;
@@ -105,8 +105,8 @@ h1, h2, h3, h4 {
   margin-bottom: 1rem;
 }
 .sidebar-photo {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 6px;
   object-fit: cover;
   border: 3px solid rgba(255,255,255,0.4);
@@ -115,7 +115,7 @@ h1, h2, h3, h4 {
 
 .sidebar-about h1 {
   font-family: var(--font-display);
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: #fff;
   margin: 0 0 0.3rem;
@@ -125,13 +125,13 @@ h1, h2, h3, h4 {
 .sidebar-about h1 a:hover { color: var(--yellow); }
 
 .sidebar-about .lead {
-  font-size: 0.8rem;
+  font-size: 1.0rem;
   color: var(--fg-sidebar-muted);
   margin: 0 0 0.15rem;
   line-height: 1.4;
 }
 .sidebar-about .affil {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--yellow);
   margin: 0;
   opacity: 0.9;
@@ -146,7 +146,7 @@ h1, h2, h3, h4 {
 .sidebar-nav-item {
   display: block;
   padding: 0.25rem 0;
-  font-size: 0.82rem;
+  font-size: 1.0rem;
   color: var(--fg-sidebar-muted);
   text-decoration: none;
   transition: color 0.15s;
@@ -172,10 +172,10 @@ h1, h2, h3, h4 {
   transition: color 0.15s;
 }
 .sidebar-icons a:hover { color: var(--yellow); }
-.sidebar-icons svg { width: 1.1rem; height: 1.1rem; }
+.sidebar-icons svg { width: 1.5rem; height: 1.5rem; }
 
 .sidebar-footer {
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   color: var(--fg-sidebar-muted);
   margin: 0.75rem 0 0;
   line-height: 1.5;
@@ -199,11 +199,13 @@ h1, h2, h3, h4 {
   align-items: flex-start;
 }
 .about-photo {
-  flex: 0 0 240px;
-  width: 240px;
+  flex: 0 0 220px;
+  width: 220px;
   border-radius: 4px;
   object-fit: cover;
   border: 1px solid var(--border);
+  position: sticky;
+  top: 2rem;
 }
 .about-text { flex: 1; min-width: 0; }
 .about-intro {
@@ -276,9 +278,9 @@ h1, h2, h3, h4 {
 .pub-item:hover .pub-thumb { opacity: 1; }
 
 .pub-thumb {
-  flex: 0 0 100px;
-  width: 100px;
-  height: 100px;
+  flex: 0 0 80px;
+  width: 80px;
+  height: 80px;
   object-fit: cover;
   border-radius: 3px;
   border: 1px solid var(--border);
@@ -287,9 +289,9 @@ h1, h2, h3, h4 {
   transition: opacity 0.2s;
 }
 .pub-thumb-placeholder {
-  flex: 0 0 100px;
-  width: 100px;
-  height: 100px;
+  flex: 0 0 80px;
+  width: 80px;
+  height: 80px;
   border-radius: 3px;
   border: 1px solid var(--border);
   background: var(--card-bg);
