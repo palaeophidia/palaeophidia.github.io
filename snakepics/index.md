@@ -8,7 +8,7 @@ title: Snake Pictures
 <div class="snakepics-grid">
 
 <div class="snakepics-item">
-  <div class="img-placeholder" style="aspect-ratio:1">Photo coming soon</div>
+  <img src="/public/img/snakes/Eunectes murinus.jpg" alt="Eunectes murinus">
   <p class="snakepics-caption"><em>Eunectes murinus</em> — Green anaconda, Colombia</p>
 </div>
 
@@ -33,7 +33,7 @@ title: Snake Pictures
 </div>
 
 <div class="snakepics-item">
-  <img src="/public/img/snakes/Python_regius.jpg" alt="Python murinus">
+  <img src="/public/img/snakes/Python_regius.jpg" alt="Python regius">
   <p class="snakepics-caption"><em>Python regius</em> — Ball python</p>
 </div>
 
