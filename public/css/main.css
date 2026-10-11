@@ -204,9 +204,9 @@ h1, h2, h3, h4 {
   align-items: flex-start;
 }
 .about-photo {
-  flex: 0 0 380px;
-  width: 220px;
-  height: 380px;
+  flex: 0 0 330px;
+  width: 330px;
+  height: 570px;
   border-radius: 4px;
   object-fit: cover;
   object-position: top;
