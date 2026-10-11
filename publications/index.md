@@ -9,7 +9,7 @@ title: Publications
 <p class="pub-year">2026</p>
 
 <div class="pub-item">
-  <div class="pub-thumb-placeholder" title="Add image: public/img/pubs/martinez2026.jpg">🦎</div>
+  <img class="pub-thumb" src="/public/img/pubs/ichtyo_skin_2026.jpg" alt="">
   <div class="pub-body">
     <p class="pub-authors">Martinez-Motta, M. F., Cortés, D., Maxwell, E. E., Noè, L. F., <strong>Alfonso-Rojas, A.</strong>, Parra-Ruge, F. H., &amp; Cadena, E. A.</p>
     <p><span class="pub-title"><a href="https://doi.org/10.1016/j.cretres.2026.106305" target="_blank">Soft-tissue preservation in an ichthyosaur from the lower Cretaceous (Barremian-Aptian) of Colombia.</a></span> <span class="pub-journal"><em>Cretaceous Research</em>, 106305.</span></p>
@@ -85,7 +85,7 @@ title: Publications
 <p class="pub-year">2020</p>
 
 <div class="pub-item">
-  <div class="pub-thumb-placeholder" title="Add image: public/img/pubs/alfonso2020.jpg">🐟</div>
+  <img class="pub-thumb" src="/public/img/pubs/fish_skin_2020.png" alt="">
   <div class="pub-body">
     <p class="pub-authors"><strong>Alfonso-Rojas, A.</strong>, &amp; Cadena, E. A.</p>
     <p><span class="pub-title"><a href="https://doi.org/10.7717/peerj.9479" target="_blank">Exceptionally preserved 'skin' in an Early Cretaceous fish from Colombia.</a></span> <span class="pub-journal"><em>PeerJ</em>, 8, e9479.</span></p>
