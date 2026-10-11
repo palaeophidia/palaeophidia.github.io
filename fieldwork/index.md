@@ -8,7 +8,7 @@ title: Field Work
 <div class="fieldwork-grid">
 
 <div class="fieldwork-card">
-  <div class="fieldwork-card-img img-placeholder">La Venta, Colombia</div>
+  <img src="/public/img/fieldwork/Tatacoa.jpg" alt="">
   <div class="fieldwork-card-body">
     <p class="fieldwork-card-title">La Venta, Colombia</p>
     <p class="fieldwork-card-desc">Miocene fossil locality in the Magdalena Valley yielding snakes, crocodilians, turtles, and mammals from the Honda Group.</p>
@@ -16,7 +16,7 @@ title: Field Work
 </div>
 
 <div class="fieldwork-card">
-  <div class="fieldwork-card-img img-placeholder">Pubenza, Colombia</div>
+  <img src="/public/img/fieldwork/Pubenza_2019.jpg" alt="">
   <div class="fieldwork-card-body">
     <p class="fieldwork-card-title">Pubenza, Colombia</p>
     <p class="fieldwork-card-desc">Late Pleistocene archaeological site with a rich vertebrate assemblage documenting the fauna encountered by the first humans in South America.</p>

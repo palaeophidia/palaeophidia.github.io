@@ -13,28 +13,28 @@ title: Snake Pictures
 </div>
 
 <div class="snakepics-item">
-  <div class="img-placeholder" style="aspect-ratio:1">Photo coming soon</div>
-  <p class="snakepics-caption"><em>Boa constrictor</em> — Boa constrictor, Colombia</p>
+  <img src="/public/img/snakes/Leptophis_sp.jpeg" alt="Leptophis sp">
+  <p class="snakepics-caption"><em>Leptophis sp</em> — Parrot snake, Colombia</p>
 </div>
 
 <div class="snakepics-item">
-  <div class="img-placeholder" style="aspect-ratio:1">Photo coming soon</div>
-  <p class="snakepics-caption"><em>Bothrops asper</em> — Fer-de-lance, Colombia</p>
+  <img src="/public/img/snakes/Oxyrhopus_petolarius.jpg" alt="Oxyrhopus petolarius">
+  <p class="snakepics-caption"><em>Oxyrhopus petolarius</em> — Forest flame snake, Colombia</p>
 </div>
 
 <div class="snakepics-item">
-  <div class="img-placeholder" style="aspect-ratio:1">Photo coming soon</div>
-  <p class="snakepics-caption"><em>Corallus caninus</em> — Emerald tree boa, South America</p>
+  <img src="/public/img/snakes/Epicrates_cenchria.jpg" alt="Epicrates cenchria">
+  <p class="snakepics-caption"><em>Epicrates cenchria</em> — Rainbow boa, Colombia</p>
 </div>
 
 <div class="snakepics-item">
-  <div class="img-placeholder" style="aspect-ratio:1">Photo coming soon</div>
-  <p class="snakepics-caption"><em>Lachesis muta</em> — Bushmaster, Colombia</p>
+  <img src="/public/img/snakes/Crotalus_durissus.jpg" alt="Crotalus durissus">
+  <p class="snakepics-caption"><em>Crotalus durissus</em> — Rattlesnake, Colombia</p>
 </div>
 
 <div class="snakepics-item">
   <img src="/public/img/snakes/Python_regius.jpg" alt="Python regius">
-  <p class="snakepics-caption"><em>Python regius</em> — Ball python</p>
+  <p class="snakepics-caption"><em>Python regius</em> — Ball python, Africa</p>
 </div>
 
 </div>
