@@ -72,12 +72,17 @@ h1, h2, h3, h4 {
   color: var(--fg);
   text-wrap: balance;
 }
+/* Sidebar name stays serif (intentional display use) */
+/* All other h3/h4 in content area use body font */
+.content h3, .content h4 {
+  font-family: var(--font-body);
+}
 
 /* --- Layout ------------------------------------------------- */
 .sidebar {
   position: fixed;
   top: 0; left: 0; bottom: 0;
-  width: 20rem;
+  width: 18rem;
   background: var(--bg-sidebar);
   color: var(--fg-sidebar);
   overflow-y: auto;
@@ -93,7 +98,7 @@ h1, h2, h3, h4 {
 }
 
 .content {
-  margin-left: 25rem;
+  margin-left: 18rem;
   padding: 3rem 4rem 4rem;
   max-width: 740px;
 }
@@ -105,8 +110,8 @@ h1, h2, h3, h4 {
   margin-bottom: 1rem;
 }
 .sidebar-photo {
-  width: 15rem;
-  height: 15rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 6px;
   object-fit: cover;
   border: 3px solid rgba(255,255,255,0.4);
@@ -115,7 +120,7 @@ h1, h2, h3, h4 {
 
 .sidebar-about h1 {
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #fff;
   margin: 0 0 0.3rem;
@@ -125,13 +130,13 @@ h1, h2, h3, h4 {
 .sidebar-about h1 a:hover { color: var(--yellow); }
 
 .sidebar-about .lead {
-  font-size: 1.0rem;
+  font-size: 0.8rem;
   color: var(--fg-sidebar-muted);
   margin: 0 0 0.15rem;
   line-height: 1.4;
 }
 .sidebar-about .affil {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: var(--yellow);
   margin: 0;
   opacity: 0.9;
@@ -146,7 +151,7 @@ h1, h2, h3, h4 {
 .sidebar-nav-item {
   display: block;
   padding: 0.25rem 0;
-  font-size: 1.0rem;
+  font-size: 0.82rem;
   color: var(--fg-sidebar-muted);
   text-decoration: none;
   transition: color 0.15s;
@@ -172,10 +177,10 @@ h1, h2, h3, h4 {
   transition: color 0.15s;
 }
 .sidebar-icons a:hover { color: var(--yellow); }
-.sidebar-icons svg { width: 1.5rem; height: 1.5rem; }
+.sidebar-icons svg { width: 1.1rem; height: 1.1rem; }
 
 .sidebar-footer {
-  font-size: 0.75rem;
+  font-size: 0.68rem;
   color: var(--fg-sidebar-muted);
   margin: 0.75rem 0 0;
   line-height: 1.5;
@@ -201,11 +206,14 @@ h1, h2, h3, h4 {
 .about-photo {
   flex: 0 0 220px;
   width: 220px;
+  height: 380px;
   border-radius: 4px;
   object-fit: cover;
+  object-position: top;
   border: 1px solid var(--border);
   position: sticky;
   top: 2rem;
+  align-self: flex-start;
 }
 .about-text { flex: 1; min-width: 0; }
 .about-intro {
@@ -460,5 +468,5 @@ h1, h2, h3, h4 {
   .fieldwork-grid { grid-template-columns: 1fr; }
   .pub-thumb, .pub-thumb-placeholder { flex: 0 0 60px; width: 60px; height: 60px; }
   .about-layout { flex-direction: column; }
-  .about-photo { width: 100%; flex: none; }
+  .about-photo { width: 100%; height: auto; flex: none; position: static; }
 }
