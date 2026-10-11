@@ -33,7 +33,7 @@ title: Publications
 <p class="pub-year">2024</p>
 
 <div class="pub-item">
-  <div class="pub-thumb-placeholder" title="Add image: public/img/pubs/vasquez2024.jpg">D🐍</div>
+  <div class="pub-thumb-placeholder" title="Add image: public/img/pubs/vasquez2024.jpg">🐍</div>
   <div class="pub-body">
     <p class="pub-authors">Vásquez-Restrepo, J. D., <strong>Alfonso-Rojas, A.</strong>, &amp; Palacios-Aguilar, R.</p>
     <p><span class="pub-title"><a href="https://doi.org/10.11646/bionomina.37.1.1" target="_blank">On the validity of the recently described northern green anaconda <em>Eunectes akayima</em> (Squamata, Serpentes).</a></span> <span class="pub-journal"><em>Bionomina</em>, 37(1), 1–7.</span></p>
