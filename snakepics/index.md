@@ -8,7 +8,7 @@ title: Snake Pictures
 <div class="snakepics-grid">
 
 <div class="snakepics-item">
-  <img src="/public/img/snakes/Eunectes murinus.jpg" alt="Eunectes murinus">
+  <img src="/public/img/snakes/Eunectes_murinus.jpg" alt="Eunectes murinus">
   <p class="snakepics-caption"><em>Eunectes murinus</em> — Green anaconda, Colombia</p>
 </div>
 

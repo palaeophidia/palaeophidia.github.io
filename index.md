@@ -5,11 +5,11 @@ title: Home
 
 <div class="page">
 
-<div class="about-intro">
+<div style="display:flex;gap:1.5rem;align-items:flex-start;margin-bottom:2rem;">
+  <div class="about-intro">
   I am a Colombian vertebrate palaeontologist and biologist with interest in the evolution of modern herpetofauna in the Neotropics. My research combines traditional palaeontology, molecular data, and functional traits to understand the origin of modern species of reptiles and amphibians.
-</div>
-
-<div class="about-section">
+  </div>
+  <div class="about-section">
   <h3>CV</h3>
   <p>A PDF of my CV can be accessed <a href="/public/cv/Alfonso-Rojas_CV.pdf" target="_blank">here</a>.</p>
 </div>
@@ -18,11 +18,6 @@ title: Home
   <h3>Contact</h3>
   <p>Email me at <strong>afa38@cam.ac.uk</strong> — or find me on <a href="https://www.instagram.com/palaeophidia/" target="_blank">Instagram</a>, <a href="https://www.linkedin.com/in/andres-paleosnakes3/" target="_blank">LinkedIn</a>, or <a href="https://scholar.google.com/citations?user=_qzbKHcAAAAJ&hl=es&oi=sra" target="_blank">Google Scholar</a>.</p>
 </div>
-
-<div style="display:flex;gap:1.5rem;align-items:flex-start;margin-bottom:2rem;">
-  <div class="about-intro" style="flex:1">
-    I am a Colombian vertebrate palaeontologist...
-  </div>
   <img src="/public/img/about-photo.jpg" alt="" style="width:180px;border-radius:4px;flex-shrink:0;">
 </div>
 
