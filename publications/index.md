@@ -21,7 +21,7 @@ title: Publications
 <p class="pub-year">2025</p>
 
 <div class="pub-item">
-  <div class="pub-thumb-placeholder" title="Add image: public/img/pubs/alfonso2025.jpg">🐍</div>
+  <div class=<img class="pub-thumb" src="/public/img/pubs/anacondas_2025.jpg" alt=""> title="Add image: public/img/pubs/anacondas_2025.jpg">🐍</div>
   <div class="pub-body">
     <p class="pub-authors"><strong>Alfonso-Rojas, A. F.</strong>, Carrillo-Briceño, J. D., Sánchez, R., Sánchez-Villagra, M. R., &amp; Head, J. J.</p>
     <p><span class="pub-title"><a href="https://doi.org/10.1080/02724634.2025.2572967" target="_blank">An early origin of gigantism in anacondas (Serpentes: <em>Eunectes</em>) revealed by the fossil record.</a></span> <span class="pub-journal"><em>Journal of Vertebrate Paleontology</em>, e2572967.</span></p>
@@ -53,7 +53,7 @@ title: Publications
 </div>
 
 <div class="pub-item">
-  <div class="pub-thumb-placeholder" title="Add image: public/img/pubs/alfonso2023.jpg">🐍</div>
+  <div class=<img class="pub-thumb" src="/public/img/pubs/Colombophis_2022.jpg" alt=""> title="Add image: public/img/pubs/Colombophis_2022.jpg">🐍</div>
   <div class="pub-body">
     <p class="pub-authors"><strong>Alfonso-Rojas, A.</strong>, Vanegas, R. D., Mariño-Morejón, E., &amp; Cadena, E. A.</p>
     <p><span class="pub-title"><a href="https://doi.org/10.5252/geodiversitas2023v45a13" target="_blank">Newly discovered fossils provide novel insights on the biology of the South American Miocene snake <em>Colombophis</em> Hoffstetter &amp; Rage, 1977.</a></span> <span class="pub-journal"><em>Geodiversitas</em>, 45(13), 377–399.</span></p>
@@ -65,7 +65,7 @@ title: Publications
 <p class="pub-year">2021</p>
 
 <div class="pub-item">
-  <div class="pub-thumb-placeholder" title="Add image: public/img/pubs/alfonso2021a.jpg">🪲</div>
+  <div class=<img class="pub-thumb" src="/public/img/pubs/Insects_2021.png" alt=""> title="Add image: public/img/pubs/Insects_2021.png">🪲</div>
   <div class="pub-body">
     <p class="pub-authors"><strong>Alfonso-Rojas, A.</strong>, &amp; Cadena, E. A.</p>
     <p><span class="pub-title"><a href="https://doi.org/10.1016/j.cretres.2021.105116" target="_blank">The first benthic insects (Ephemeroptera and Coleoptera) from the Upper Cretaceous of Colombia.</a></span> <span class="pub-journal"><em>Cretaceous Research</em>, 105116.</span></p>
